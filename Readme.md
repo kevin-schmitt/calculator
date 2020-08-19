@@ -23,6 +23,10 @@ make install
 
 ## Test
 
+```
+make test
+```
+
 ## Features
 
 Just choice operation (add, mult, div, sub) and calc
