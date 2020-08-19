@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello CalculatorController!{% endblock %}
+
+{% block body %}
+    <main>
+        <section class="col-14">
+            <div class="text-white bg-dark text-center display-4"> Result {{ total }} </div>
+        </section>
+        <section class="ml-5 mr-5">
+            {{ form(calculatorForm) }}
+        </section>
+    </main>
+{% endblock %}
